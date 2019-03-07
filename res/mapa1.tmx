@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="500" height="20" tilewidth="32" tileheight="32" nextobjectid="104">
+ <tileset firstgid="1" name="tiles32" tilewidth="32" tileheight="32" tilecount="98" columns="14">
+  <image source="tiles32.png" width="448" height="224"/>
+ </tileset>
+ <layer name="patronesFondo" width="500" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztw8EJAAAMA6H7Z/99C51DwVVTVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVX/Af00rcA=
+  </data>
+ </layer>
+ <layer name="PatronesTerreno" width="500" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt2F1rgzAUgGHZB9ttGfT//9TOi7EQNJp4jGl5HsjFsHTHFPqaThMAAAAAAAAAAAAAAAAAAAAAAAAAHHerXPyr2RP7B8CZ9LzdKD1/KywAuNL3VH6u+Drw3lHtG6Xnkc9fngsAYuU9S219b0c070pbLT96f1HtG6XnkfwuAxBnqWepvT1/xqbvbXmP+5tnKf2W/TdD6TV7Xls7k74CjG+tZ6na68/S9NqWn3l/rbO0rJaZWrwXFgBxSg1JtVwfvelH+zmfc+cuffyuz4W/e85ypOd7zvitPY94pgCgbKshqZbrIze9Rz9HmqXls4vor54DrMvPUPkZcWktnSPv0/k9v2X/P5+lNPPS7Gt7sGcf0us9m7l1ju/dcj0HGMMo3/lRM/1UrN57ELF/V88R9dm1iH4/gFfyAAUZJ7k=
+  </data>
+ </layer>
+ <objectgroup name="Monedas" visible="0">
+  <object id="43" x="414" y="474" width="40" height="40"/>
+  <object id="45" x="988" y="300" width="40" height="40"/>
+  <object id="46" x="1588" y="202" width="40" height="40"/>
+  <object id="48" x="1838" y="204" width="40" height="40"/>
+  <object id="49" x="1705" y="482" width="40" height="40"/>
+  <object id="61" x="2320" y="490" width="40" height="40"/>
+  <object id="62" x="2872" y="294" width="40" height="40"/>
+  <object id="63" x="3559" y="293" width="40" height="40"/>
+  <object id="64" x="4077" y="229" width="40" height="40"/>
+  <object id="65" x="4427" y="222" width="40" height="40"/>
+  <object id="66" x="5242" y="256" width="40" height="40"/>
+ </objectgroup>
+ <objectgroup name="Enemigos" visible="0">
+  <object id="67" x="1446" y="514" width="40" height="40"/>
+  <object id="68" x="1727" y="244" width="40" height="40"/>
+  <object id="69" x="2528" y="511" width="40" height="40"/>
+  <object id="70" x="3216" y="444" width="40" height="40"/>
+  <object id="71" x="3569" y="509" width="40" height="40"/>
+  <object id="72" x="4248" y="378" width="40" height="40"/>
+  <object id="73" x="4840" y="444" width="40" height="40"/>
+  <object id="74" x="5568" y="422" width="40" height="40"/>
+ </objectgroup>
+ <objectgroup name="Pinchos">
+  <object id="75" x="2183" y="523" width="40" height="40"/>
+  <object id="76" x="3877" y="394" width="40" height="40"/>
+  <object id="78" x="515" y="523" width="40" height="40"/>
+  <object id="102" x="4030" y="394" width="40" height="40"/>
+  <object id="103" x="5836" y="331" width="40" height="40"/>
+ </objectgroup>
+ <objectgroup name="Suelos" visible="0">
+  <object id="80" x="0" y="640">
+   <polyline points="0,0 0,-64 576,-64 736,-224 832,-224 832,0"/>
+  </object>
+  <object id="81" x="928" y="640">
+   <polyline points="0,0 0,-224 160,-224 160,0"/>
+  </object>
+  <object id="82" x="1184" y="640">
+   <polyline points="0,0 0,-224 64,-224 224,-64 832,-64 832,0"/>
+  </object>
+  <object id="83" x="1536" y="321">
+   <polyline points="0,0 0,63 384,63 384,-1 0,-1"/>
+  </object>
+  <object id="84" x="2080" y="640">
+   <polyline points="0,0 0,-64 512,-64 704,-256 928,-256 1056,-128 1312,-128 1312,0"/>
+  </object>
+  <object id="85" x="3488" y="384">
+   <polyline points="0,0 0,64 192,64 192,0 0,0"/>
+  </object>
+  <object id="86" x="3456" y="640">
+   <polyline points="0,0 0,-64 256,-64 384,-192 608,-192 608,-320 672,-320 672,-192 960,-192 960,-320 1024,-320 1024,-192 1184,-192 1184,0"/>
+  </object>
+  <object id="87" x="4736" y="640">
+   <polyline points="0,0 0,-128 224,-128 288,-192 320,-192 320,0"/>
+  </object>
+  <object id="88" x="5152" y="352">
+   <polyline points="0,0 0,64 224,64 224,0 0,0"/>
+  </object>
+  <object id="89" x="5472" y="640">
+   <polyline points="0,0 0,-160 224,-160 224,0"/>
+  </object>
+  <object id="90" x="5760" y="384">
+   <polyline points="0,0 0,64 192,64 192,0 0,0"/>
+  </object>
+ </objectgroup>
+</map>
